@@ -1,3 +1,3 @@
 // deleting all documents certifying the given object query
 
-db.school.delete({name: "Holberton school"});
+db.school.deleteMany({name: "Holberton school"});
