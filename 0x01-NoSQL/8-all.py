@@ -4,5 +4,6 @@
 
 
 def list_all(mongo_collection):
-
+    '''listing all documents in a collection
+    '''
     return [doc for doc in mongo_collection.find()]
